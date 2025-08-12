@@ -1,4 +1,4 @@
-# Models
+# Model Classes
 
 The models are part of the MVC architecture. They encompass all db queries and operations. 
 
