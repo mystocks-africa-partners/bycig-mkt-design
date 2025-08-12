@@ -43,4 +43,4 @@ classDiagram
 
     IModel <|.. UserModel
     IModel <|.. ProposalModel
-    IModel <|.. HoldingsModel
+    IModel <|.. HoldingModel
