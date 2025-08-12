@@ -1,4 +1,10 @@
+# Models
 
+The models are part of the MVC architecture. They encompass all db queries and operations. 
+
+The models are structured to have polymorphism where there is are standardized method signatures aligning to CRUD (create, read, update, delete).
+
+This standardization has been defined in the IModel interface (conventional naming adhered)
 
 ```mermaid
 classDiagram
