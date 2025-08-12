@@ -1,6 +1,6 @@
 
 
-```
+```mermaid
 classDiagram
     class IModel {
         <<interface>>
