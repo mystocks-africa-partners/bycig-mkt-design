@@ -33,5 +33,13 @@ classDiagram
         +create(assoc_array): void
     }
 
+    class HoldingModel{
+        +getAll(): assoc_array<Holding>
+        +getOne(id): ?Holding
+        +delete(id): void
+        +update(id): void
+        +create(assoc_array): void
+    }
+
     IModel <|.. UserModel
     IModel <|.. ProposalModel
